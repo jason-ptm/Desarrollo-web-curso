@@ -1,0 +1,7 @@
+alt="" sirve para dar una descripcion cuando no carga el contenido multimedia
+
+<figure><figcaption>
+    Se pone un texto que va debajo de la imagen
+</figcaption></figure>
+
+<section> se usa como contenedor que se usa cuando el contenido tiene relacion entre si
