@@ -21,6 +21,8 @@ aside, nav,header o footer
 
 <div> agrupar contenido, pero no puede tener una relacion semantica
 
+elemento*NumeroElementos{contenido elemento $} $= contador
+
 
 //CSS
 
@@ -29,6 +31,13 @@ elemento.'clase' = elemento con clase 'clase'   div.cont = div con clase 'cont'
 elemento#'id' = elemento con clase 'id'    div#destacado = div con id 'destacado'
 
 pseudoclases se utilizan añadiendo ':' elemento:pseudoclase
+pseudoclase usan (posicion, estado, relacion)
+
+pseudoelementos se utilizan añadiento '::' elemento::pseudoelemento
+pseudoelemento usan el contenido del elemento
+
+::before y ::after añaden algo antes o despues del contenido original
+div::before{content:'puta'}
 
 
 //JS
