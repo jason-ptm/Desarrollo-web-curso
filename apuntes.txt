@@ -1,3 +1,6 @@
+//HTML
+
+
 alt="" sirve para dar una descripcion cuando no carga el contenido multimedia
 
 <figure><figcaption>
@@ -5,3 +8,29 @@ alt="" sirve para dar una descripcion cuando no carga el contenido multimedia
 </figcaption></figure>
 
 <section> se usa como contenedor que se usa cuando el contenido tiene relacion entre si
+
+<article> contenido que se puede compartir o consumir sin importar el demas contenido de la pagina
+
+<aside> tiene contenido que esta relacionado con su alrededor, un aside dentro de una contenedor tiene
+que estar relacionado con ese contenedor, no con lo exterior al contenedor
+
+<nav> un contenedor con enlaces
+
+<main> descendiente directo de body, no debe haber mas de un main, ni debe estar dentro de un article,
+aside, nav,header o footer
+
+<div> agrupar contenido, pero no puede tener una relacion semantica
+
+
+//CSS
+
+
+elemento.'clase' = elemento con clase 'clase'   div.cont = div con clase 'cont'
+elemento#'id' = elemento con clase 'id'    div#destacado = div con id 'destacado'
+
+pseudoclases se utilizan añadiendo ':' elemento:pseudoclase
+
+
+//JS
+
+
