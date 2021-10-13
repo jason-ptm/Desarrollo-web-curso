@@ -39,6 +39,23 @@ pseudoelemento usan el contenido del elemento
 ::before y ::after añaden algo antes o despues del contenido original
 div::before{content:'puta'}
 
+para usar un valor de porcentaje, el elemento ancestro debe tener un valor de ese tipo
+
+las propiedades que son graficas, son heredables generalmente, las propiedades de poscion y
+comportamiento no lo son
+
+las unidades em se heredan, haciendo un efecto de cascada
+
+las unidades rem no se herenda, son unidades relativas que se basan en el elemento HTML
+
+media querys @media screen and(condicion){}
+
+la cascada utiza (origen, especificidad, orden de aparicion)
+
+para heredar una propiedad del padre, usar propiedad:inherit
+
+UI desing Daily hay plantillas especificamente para copiar
+
 
 //JS
 

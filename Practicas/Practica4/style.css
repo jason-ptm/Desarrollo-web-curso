@@ -2,7 +2,7 @@ body{
     margin: 0;
 }
 main{
-    background-color: lightyellow;
+    background-color: rgb(255, 255, 224);
     padding: 20px;
 }
 h1{
